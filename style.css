@@ -263,6 +263,7 @@ footer{
     }
     header{
         margin: 2rem;
+        
     }
     .home{
         margin: 0 0 5rem 0;
@@ -273,7 +274,10 @@ footer{
 
     .principal{
         width: 100%;
-        
+        background-image: url(imagenes/bg-tablet-pattern.svg);
+        background-position: top;
+        background-size: 30rem;
+        background-repeat: no-repeat;
     }
     .principal p,h1,#graf-home{
         width: 100%;
