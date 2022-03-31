@@ -22,10 +22,10 @@ header{
 }
 
 .btn-standard{
-    color:#fff;
     background-color: rgb(242, 95, 58);
-    padding: 1rem 2rem;
     border-radius: 2rem;
+    color:#fff;
+    padding: 1rem 2rem;
 }
 
 #icon-burger{
@@ -43,14 +43,14 @@ header{
 
 }
 .principal p{
-    width: 50%;
-    margin-bottom: 2rem;
     color:black;
+    margin-bottom: 2rem;
+    width: 50%;
 }
 
 h1{
-    margin-top: 5rem;
     font-size: 3.5rem;
+    margin-top: 5rem;
     width: 60%;
 }
 
@@ -64,10 +64,10 @@ h1{
 }
 
 .diferencias p{
+    color: black;
+    font-weight: 500;
     margin-top: 3rem;
     width: 45%;
-    font-weight: 500;
-    color: black;
 }
 
 .lista{
@@ -89,8 +89,8 @@ h1{
 }
 
 ol {
-    list-style: none;
     counter-reset: item;
+    list-style: none;
     width: 80%;
     
 }
@@ -98,7 +98,6 @@ ol {
 ol li {
     counter-increment: item;
     font-size: 1rem;
-    
 }
 
 ol li p:first-child{
@@ -107,19 +106,18 @@ ol li p:first-child{
 
 
 ol li:before {
+    background-color: rgb(242, 95, 58);
+    border-radius: 2rem;
     content: counter(item);
     color: white;
-    width: 1.2em;
-    text-align: center;
+    font-weight: 700;
+    margin: 0%;
+    padding: 0.5rem 2rem;
     position: relative;
     right: 5rem;
     top: 1.5rem;
-    color:#fff;
-    background-color: rgb(242, 95, 58);
-    padding: 0.5rem 2rem;
-    border-radius: 2rem;
-    font-weight: 700;
-    margin: 0%;
+    text-align: center;
+    width: 1.2em;
 }
 
 ol li p:nth-child(2){
@@ -131,15 +129,15 @@ ol li p:nth-child(2){
     text-align: center;
 }
 .comentarios h2{
-    text-align: center;
     font-size: 2.5rem;
     margin-bottom: 8rem;
+    text-align: center;
 }
 
 .card-container{
+    background-color: rgb(245, 245, 245);
     display: flex;
     justify-content: space-around;
-    background-color: rgb(245, 245, 245);
 }
 
 .card{
@@ -150,9 +148,9 @@ ol li p:nth-child(2){
     color: #B9B9C1;
 }
 .card img{
-    width: 6rem;
-    position: relative;
     bottom: 3rem;
+    position: relative;
+    width: 6rem;
 }
 
 .card p{
@@ -167,14 +165,14 @@ ol li p:nth-child(2){
     background-color:rgb(242, 95, 58);
     display: flex;
     justify-content: space-between;
-    padding: 8rem;
     margin-top: 15rem;
+    padding: 8rem;
 }
 
 .start p{
+    color: #fff;
     font-weight: 700;
     font-size: 3rem;
-    color: #fff;
     width: 40%;
 }
 
@@ -187,10 +185,10 @@ ol li p:nth-child(2){
 
 footer{
     background-color: rgb(29, 30, 37);
-    padding: 5rem;
     display: flex;
-    justify-content: space-around;
     height: 20rem;
+    justify-content: space-around;
+    padding: 5rem;
 }
 
 #copyright{
@@ -199,10 +197,10 @@ footer{
 }
 
 .ftr-1{
-    width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 10%;
 }
 
 .redes ul{
@@ -224,11 +222,11 @@ footer{
 }
 
 .ftr-3{
-    width: 20%;
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    width: 20%;
 }
 
 .ftr-3 input{
@@ -266,37 +264,37 @@ footer{
         
     }
     .home{
-        margin: 0 0 5rem 0;
-        flex-direction: column-reverse;
         align-items: center;
+        flex-direction: column-reverse;
+        margin: 0 0 5rem 0;
         width: 100%;
     }
 
     .principal{
-        width: 100%;
         background-image: url(imagenes/bg-tablet-pattern.svg);
         background-position: top;
         background-size: 30rem;
         background-repeat: no-repeat;
+        width: 100%;
     }
     .principal p,h1,#graf-home{
-        width: 100%;
         padding: 1rem;
         text-align: center;
+        width: 100%;
     }
 
     .secundario,.secundario p,.secundario h2,.lista,.diferencias{
+        align-items: center;
+        flex-direction: column;
         margin: 0%;
         padding: 0%;
-        flex-direction: column;
-        width: 100%;
         text-align: center;
-        align-items: center;
+        width: 100%;
     }
 
     .diferencias{
-        width: 80%;
         margin-bottom: 2rem;
+        width: 80%;
     }
 
     .secundario h2{
@@ -304,18 +302,18 @@ footer{
     }
 
     ol{
-        width: 100%;
         margin: 0 3rem;
+        width: 100%;
     }
     ol li:before{
         right: 10rem;
         top: 1.8rem;
     }
     ol li p:first-child{
-        margin-bottom: 1rem;
-        text-align: start;
-        padding:0.5rem 0 0.5rem 5rem;
         background-color: rgb(255, 239, 234);
+        margin-bottom: 1rem;
+        padding:0.5rem 0 0.5rem 5rem;
+        text-align: start;
     }
 
     ol li p:nth-child(2){
@@ -340,32 +338,33 @@ footer{
         display: none;
     }
     #card-3{
-        margin: 0 1rem;
         background-color: rgb(245, 245, 245);
+        margin: 0 1rem;
     }
 
     .start{
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
         flex-direction: column;
-        padding-bottom: 3rem;
+        margin: 0%;
+        padding: 3rem 0;
+        width: 100%;
+        background-image: url(imagenes/bg-simplify-section-mobile.svg);
+        background-repeat: no-repeat;
     }
 
     .start p{
-        width: 100%;
         margin: 0;
         padding: 2rem;
         text-align: center;
+        width: 100%;
     }
 
     footer{
+        align-items: center;
         flex-direction: column-reverse;
         justify-content: space-around;
-        align-items: center;
+        height: 100%;
         margin: 0%;
         padding: 0%;
-        height: 100%;
     }
 
     .ftr-1,.ftr-2,.ftr-3{
@@ -375,9 +374,9 @@ footer{
     }
 
     .ftr-1{
-        width: 100%;
-        flex-direction: column-reverse;
         align-items: center;
+        flex-direction: column-reverse;
+        width: 100%;
     }
 
     #copyright{
@@ -386,8 +385,8 @@ footer{
     }
 
     #logo-ftr{
-        width: 10rem;
         margin-top: 2rem;
+        width: 10rem;
     }
 
     .redes{
